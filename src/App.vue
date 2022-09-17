@@ -1,14 +1,15 @@
 <template>
-  <h1>Hello</h1>
+  <Navbar/>
 </template>
 
 <script>
 import './App.css'
+import Navbar from './components/Navbar.vue'
 
 export default {
   name: 'App',
   components: {
-
+    Navbar,
   }
 }
 </script>
