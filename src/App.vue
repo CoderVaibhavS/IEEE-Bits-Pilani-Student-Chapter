@@ -1,9 +1,9 @@
 <template>
   <Navbar/>
+  <router-view></router-view>
 </template>
 
 <script>
-import './App.css'
 import Navbar from './components/Navbar.vue'
 
 export default {
@@ -13,3 +13,18 @@ export default {
   }
 }
 </script>
+
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  a{
+      text-decoration: none;
+  }
+
+  ul{
+      list-style: none;
+  }
+</style>
