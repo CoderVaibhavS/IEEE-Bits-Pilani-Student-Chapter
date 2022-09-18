@@ -58,7 +58,7 @@
         flex-direction: row;
         background-color: rgba(5,5,5,0.9);
         justify-content: space-between;
-        padding: 1rem 4rem;
+        padding: 1rem var(--logo-left);
     }
     .logo img{
         max-width: 10%;

@@ -20,6 +20,10 @@ export default {
     padding: 0;
   }
 
+  :root{
+    --logo-left: 4rem
+  }
+
   a{
       text-decoration: none;
   }
