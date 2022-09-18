@@ -10,7 +10,7 @@
             </li>
 
             <li class="nav-link" id="about">
-                <router-link to="/about">About</router-link>
+                <a href="#about">About</a>
             </li>
 
             <li class="nav-link" id="events">
@@ -19,20 +19,20 @@
             </li>
 
             <li class="nav-link" id="blog">
-                <router-link to="/blog">Blog</router-link>
+                <a href="#blog">Blog</a>
             </li>
 
             <li class="nav-link" id="resources">
-                <router-link to="/resources">Resources</router-link>
+                <a href="#resources">Resources</a>
                 <span class="dropdown"><svg width="13" height="11" viewBox="0 0 13 11" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0.979736L6.25 10.3244L12.5 0.979736" fill="white"/></svg></span>
             </li>
 
             <li class="nav-link" id="gallery">
-                <router-link to="/gallery">Gallery</router-link>
+                <a href="#gallery">Gallery</a>
             </li>
 
             <li class="nav-link" id="contact">
-                <router-link to="/contact">Contact</router-link>
+                <a href="#contact">Contact</a>
             </li>
 
         </ul>
@@ -51,6 +51,7 @@
 
 <style scoped>
     .navbar {
+        position: relative;
         display: flex;
         max-width: 100vw;
         height: calc(10vh - 2rem);
@@ -60,7 +61,9 @@
         padding: 1rem 4rem;
     }
     .logo img{
-        max-width: 70%;
+        max-width: 10%;
+        position: absolute;
+        z-index: 100;
     }
     
     .nav-list{
